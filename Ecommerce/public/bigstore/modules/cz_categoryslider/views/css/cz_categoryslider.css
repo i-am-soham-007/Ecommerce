@@ -1,0 +1,99 @@
+#czcategorytabs {
+    float: left;
+    width: 100%;
+    clear: both;
+    margin: 15px 0;
+    position: relative;
+    background: #ffffff;
+    padding: 40px 40px 20px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+#czcategorytabs .categorytab.block {
+	float: left;
+    width: 100%;
+}
+#czcategorytabs .tab-content {
+    clear: both;
+}
+#czcategorytabs .categoryimage .category_img{ margin:25px 0; max-width: 100%; }
+#czcategorytabs .tab-content .tab-pane{
+	padding: 0px;
+    border: none;
+    background: none;
+}
+#czcategorytabs .nav-item .category-title {
+    padding: 0;
+}
+#czcategorytabs .customNavigation {
+	top: 40px;
+    right: 40px;
+    opacity: 1;
+    filter: alpha(opacity=100);
+    -webkit-transition: all 500ms ease 0s;
+    -moz-transition: all 500ms ease 0s;
+    -o-transition: all 500ms ease 0s;
+    transition: all 500ms ease 0s;
+}
+#czcategorytabs .customNavigation .prev {
+    left: 0;
+}
+#czcategorytabs .customNavigation .next {
+    right: 0;
+}
+#czcategorytabs .tab-content .view_more{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#czcategorytabs .tab-content .view_more .all-product-link {
+    font-size: 14px;
+    min-width: 180px;
+    padding: 10px 25px;
+    display: inline-block;
+    background: #1e3854;
+    border: 1px solid #1e3854;
+    font-weight: 400;
+    color: #ffffff;
+    text-transform: capitalize;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -webkit-transition: all 500ms ease 0s;
+    -moz-transition: all 500ms ease 0s;
+    -o-transition: all 500ms ease 0s;
+    transition: all 500ms ease 0s;
+}
+#czcategorytabs .tab-content .view_more .all-product-link:hover {
+    background-color: #f5b971;
+    border-color: #f5b971;
+    color: #000000;
+}
+#czcategorytabs .tab-content .products{ position: relative; margin:0 -15px; }
+@media (max-width: 1500px) {
+	#czcategorytabs .customNavigation .prev {
+		left: 0;
+	}
+	#czcategorytabs .customNavigation .next {
+		right: 0;
+	}
+}
+@media (max-width: 991px) {
+    #czcategorytabs {
+        padding: 30px 30px 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+	#czcategorytabs .customNavigation {
+        top: 25px;
+        right: 30px;
+    }
+}
+@media (max-width: 767px) {
+    #czcategorytabs {
+        padding: 20px 20px 5px;
+    }
+    #czcategorytabs .customNavigation {
+        top: 15px;
+        right: 20px;
+    }
+}

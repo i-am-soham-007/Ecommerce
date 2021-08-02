@@ -1,0 +1,292 @@
+/* block top search */
+#search_block_top {
+	position:absolute;
+	right: 26%;
+    top: 34px;
+}
+#search_block_top p {padding:0;}
+#search_block_top #search_query_top {
+	padding:0 5px;
+	height:23px;
+	width:300px;
+	border:1px solid #666;
+	border-right: 0 !important;
+	color:#666;
+	background:url(img/bg_search_input.html) repeat-x 0 0 #fff;
+	float: left;
+}
+
+#search_block_top .button {
+	border:none;
+	border-radius:0;
+	color:#fff;
+	text-transform:uppercase;
+	background:url(../img/bg_search_submit.png) repeat-x 0 0 #101010;
+	float: left;
+	height: 25px;
+}
+
+form#searchbox{padding-top:5px}
+form#searchbox label{color:#333;margin-bottom:1px}
+form#searchbox input#cz_search_query_block{
+	border: 1px solid #CCCCCC;
+	-webkit-border-radius:3px !important;
+	-moz-border-radius:3px !important;
+	border-radius:3px !important;
+    height: 18px;
+	margin-top:10px;
+}
+form#searchbox input#search_button{padding: 1px 4px;}
+
+.categoryList-wrapper
+{
+	position: relative;
+}
+
+.categoryLists
+{
+	/*width: 100%;*/
+	padding: 0px;
+}
+
+.cateSingleItem
+{
+	display: block;
+    padding: 4px 10px;
+    font-size: 13px;
+    border-bottom: 1px solid #f0f0f0;	
+    letter-spacing: 0.3px;
+}
+
+#czsearchtopbox a.cateSingleItem.active, #czsearchtopbox a.cateSingleItem:hover, 
+#czsearchbox a.cateSingleItem.active, #czsearchbox a.cateSingleItem:hover {
+	color: #f5b971;
+}
+
+#dropdownListCate, #categoryDropList {
+	cursor: pointer;
+    display: block;
+    padding: 8px 25px 8px 15px;
+    color: #000000;
+    line-height: 26px;
+    background: #ffffff;
+    height: 42px;
+    font-size: 14px;
+    text-transform: capitalize;
+    font-weight: 500;
+    border-radius: 5px 0 0 5px;
+	-webkit-border-radius: 5px 0 0 5px;
+	text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 200px;
+}
+h3.page-heading.product-listing{
+	font-weight: 600;
+    color: #000;
+	margin-bottom: 20px;
+}
+#czsearchtopbox #categoryDropList:hover, #czsearchbox #dropdownListCate:hover
+{
+	color: #f5b971;
+}
+.cz_search_block_top .product_search{
+	float:left;
+}
+.cz_search_block_top #cz_search_top_button{
+	padding: 5px 24px;
+    background-color: #f5b971;
+    height: 42px;
+    width: auto;
+    font-size: 14px;
+    letter-spacing: 0.4px;
+    font-weight: 500;
+    color: #000000;
+    border-radius: 0 5px 5px 0;
+	-webkit-border-radius: 0 5px 5px 0;
+	text-transform: capitalize;
+	float: left;
+}
+.cz_search_block_top #cz_search_top_button:hover{
+	color: #fff;
+    background-color: #000;
+}
+.cz_search_block_top .categoryList-wrapper{
+	float:left;
+    min-width: 200px;
+}
+.cz_search_block_top .search_query{
+	overflow:hidden;
+}
+.cz_search_block_top{
+    position: relative;
+    float: left;
+    padding-left: 125px;
+}
+.cz_search_block_top .form-control {
+    padding: 6px 16px;
+    width: 510px;
+    float: left;
+    border: none;
+	height: 42px;
+	letter-spacing: 0.6px;
+	border-radius: 0;
+    -webkit-border-radius: 0;
+}
+	
+.cz_search_block_top .dropdown-menu{
+    margin: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 280px;
+    width: 250px;
+    top: 42px;
+    left: 0;
+	right: auto;
+}
+.cz_search_block_top #categoryDropList i.material-icons {
+    display: none;
+}
+.cz_search_block_top #categoryDropList:after {
+	content: '\f0dd';
+    font-family: 'FontAwesome';
+    font-size: 15px;
+    margin: 2px 0 0 10px;
+    display: inline-block;
+    vertical-align: top;
+    height: 13px;
+    width: 13px;
+	line-height: 16px;
+	position: absolute;
+    right: 10px;
+}
+.cz_search_block_top #categoryDropList:before{
+	content: '';
+    background: #d9d9d9;
+    width: 1px;
+    height: 42px;
+    position: absolute;
+    right: 0px;
+    top: 0;
+}
+.header-top.fixed #cz_search_block_top {
+    padding-top: 25px;
+}
+
+@media (max-width: 1750px) {
+	.cz_search_block_top {
+		padding-left: 60px;
+	}
+	.cz_search_block_top .form-control {
+		width: 480px;
+	}
+}
+@media (max-width: 1650px) {
+	.cz_search_block_top .form-control {
+		width: 400px;
+	}
+}
+@media (max-width: 1550px) {
+	.cz_search_block_top .form-control {
+		width: 320px;
+	}
+}
+@media (max-width: 1459px) {
+	.cz_search_block_top .categoryList-wrapper {
+	    min-width: 160px;
+	}
+	.cz_search_block_top .form-control {
+	    width: 260px;
+	}
+	.cz_search_block_top {
+		padding-left: 50px;
+	}	
+}
+@media (max-width: 1360px) {
+	.cz_search_block_top .form-control {
+	    width: 200px;
+	}
+}
+@media (max-width: 1300px) {
+	.cz_search_block_top #cz_search_top_button {
+		font-size: 0;
+		padding: 0;
+		width: 45px;
+	}
+	.cz_search_block_top .form-control {
+		width: 300px;
+	}
+}
+@media (max-width: 1199px) {
+	.cz_search_block_top .categoryList-wrapper {
+		min-width: auto;
+	}
+	.cz_search_block_top {
+		padding-left: 40px;
+	}
+	#categoryDropList {
+		width: 50px;
+		font-size: 0px;
+		padding: 7px 0;
+		height: 42px;
+	}
+	.cz_search_block_top #categoryDropList:after {
+		background: url(../img/category-menu.svg) no-repeat 0 0;
+		width: 20px;
+		height: 20px;
+		left: 30px;
+		background-size: 27px;
+		background-position: center;
+		content: '';
+		margin: 3px 0 0 0;
+		position: static;
+	}
+	.cz_search_block_top .form-control {
+		width: 330px;
+	}
+	#categoryDropList span {
+		display: none;
+	}
+}
+@media (max-width: 991px) {
+	.cz_search_block_top .categoryList-wrapper {
+		min-width: auto;
+	}
+	.cz_search_block_top {
+		padding-left: 30px;
+	}
+	.cz_search_block_top {
+		padding-top: 10px;
+		width: 100%;
+		padding-left: 0;
+	}
+	.cz_search_block_top #cz_search_top_button:hover{
+		color:#000000;
+	}
+	.cz_search_block_top .form-control {
+	    width: calc(100% - 95px);
+	}
+	.cz_search_block_top .product_search {
+		float: none;
+	}
+}
+@media (max-width: 575px){
+	.cz_search_block_top .form-control {
+		height: 40px;
+		width: calc(100% - 102px);
+	}
+	.cz_search_block_top #cz_search_top_button,
+	.cz_search_block_top #cz_search_top_button .material-icons {
+		height: 40px;
+		width: 52px;
+	}
+	.cz_search_block_top #categoryDropList:before {
+		height: 40px;
+	}
+	#categoryDropList {
+		height: 40px;
+	}
+	.cz_search_block_top .dropdown-menu {
+		top: 40px;
+	}
+}

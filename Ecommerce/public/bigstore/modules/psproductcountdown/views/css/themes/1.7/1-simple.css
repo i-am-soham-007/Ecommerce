@@ -1,0 +1,117 @@
+#products .psproductcountdown .count.curr, #products .psproductcountdown .count.bottom,
+.psproductcountdown .count.curr, .psproductcountdown .count.bottom {
+    display: none;
+}
+.psproductcountdown .hidden {
+    display: none;
+}
+
+#product .product-actions .psproductcountdown {
+    margin-bottom: 30px;	
+    display: inline-block;
+}
+.product-counter {
+    margin-top: 7px;
+    margin-left: 12px;
+    clear: both;
+    float: left;
+    width: 100%;
+}
+.product-miniature .psproductcountdown,
+#product .psproductcountdown {
+    padding-bottom: 0;
+    width: auto;
+    vertical-align: top;
+    padding-top: 0;
+    float: left;
+}
+.product-miniature .psproductcountdown .pspc-main .time, 
+#product .psproductcountdown .pspc-main .time {
+    height: auto;
+    width: auto;
+    margin: 0;
+    max-width: 100%;
+    vertical-align: top;
+}
+.product-miniature .psproductcountdown .pspc-main, 
+#product .psproductcountdown .pspc-main {
+    white-space: normal;
+    display: inline-block;
+}
+.pspc-main .time:before { 
+    content: ":";
+    position: absolute;
+    right: 0px;
+    font-size: 16px;
+    top: 0px;
+    color: #1e3854;
+}
+.pspc-main .time:last-child:before {
+    font-size: 0px;
+}
+#left-column .products .product_list li.item {
+    padding-right: 0;
+    padding-left: 0;
+	padding-bottom: 0;
+	padding-top: 0;
+}
+
+
+.psproductcountdown {
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.pspc-main .time {
+    margin: 0 10px 0px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    height: 40px;
+    width: 60px;
+    max-width: 7em;
+	/*border: 1px solid #ededed;*/
+	position: relative;	
+}
+
+/*.pspc-main .time:after {
+    content: ":";
+    font-size: 30px;
+    position: absolute;
+    right: -18px;
+	color: #ffcb77;
+    top: 10px;
+}*/
+.psproductcountdown .time:last-child:after { display: none; }
+#products .pspc-main .count,
+.pspc-main .count {
+    color: #1e3854;
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    line-height: 26px;
+    text-align: center;
+    bottom: auto;
+}
+.pspc-main .seconds .count,
+#products .pspc-main .seconds .count {
+    color: #f5b971;
+}
+.pspc-main .label {
+    font-size: 13px;
+    text-transform: capitalize;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: 100%;
+    color: #000;
+    line-height: 26px;
+    font-weight: 500;
+    letter-spacing: 0.49px;
+    display: none;
+}
+@media (max-width: 380px) {
+    .product-counter {
+        margin-left: 0;
+    }
+}
